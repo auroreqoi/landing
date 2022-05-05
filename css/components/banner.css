@@ -1,7 +1,66 @@
 .banner {
-  background-image: url('../../images/transflag.png');
-  background-size:contain;
   color: #8E3E7D;
-  height: 40vh;
-  padding: 60px;
+}
+
+.stripe {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 48px;
+  transform:scaleX(0);
+
+}
+
+.blue {
+  background-color:#5BCFFA;
+}
+
+.pink {
+  background-color: #F5ABB9;
+}
+
+#blue-to-pink {
+  background: linear-gradient(#5BCFFA 72%,#F5ABB9);
+  animation: slideIn 2s;
+  animation-fill-mode: forwards;
+
+}
+
+#pink-to-white {
+  background: linear-gradient(#F5ABB9 72%,#FFFFFF);
+  animation: slideIn 2s;
+  animation-delay: .3s;
+  animation-fill-mode: forwards;
+}
+
+#white-to-pink {
+  background: linear-gradient(#FFFFFF 72%,#F5ABB9);
+  animation: slideIn 2s;
+  animation-delay: .6s;
+  animation-fill-mode: forwards;
+}
+
+#pink-to-blue {
+  background: linear-gradient(#F5ABB9 72%,#5BCFFA);
+  animation: slideIn 2s;
+  animation-delay: .9s;
+  animation-fill-mode: forwards;
+}
+
+#blue-to-violet {
+  background: linear-gradient(#5BCFFA 72%,#C3AED6);
+  animation: slideIn 2s;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    transform:scaleX(0)
+  }
+
+  100%{
+    transform:scaleX(1)
+  }
 }

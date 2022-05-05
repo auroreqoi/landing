@@ -13,11 +13,10 @@
 body {
   margin: 0;
   font-family: Open Sans;
-  background: linear-gradient(#FFFFFF, #5BCFFA 40%, #C3AED6 42%);
 }
 
 h1, h2, h3, h4 {
-  font-family: Poppins;
+  font-family: 'Playfair Display', serif;
 }
 
 a {

@@ -4,10 +4,15 @@
 }
 
 .container {
-  width: 1000px;
   margin: 0 auto;
   text-align: center;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  background-color: #C3AED6;
+}
+
+.container h2 {
+  margin-bottom: 12px;
 }
 
 .card-container {
@@ -23,4 +28,8 @@
   align-items: center;
   height: 200px;
   background: linear-gradient(#C3AED6, #C0D8C7 25%);
+}
+
+.footer p {
+  font-size: 12px;
 }

@@ -41,10 +41,12 @@
 
 .card-trip {
   margin-bottom: 24px;
-  width: 33%;
+  margin-left: 16px;
+  margin-right: 16px;
   background: white;
   border-radius: 5px;
   box-shadow: 2px 2px 4px rgb(0 0 0 / 50%);
+  flex: 1;
 }
 
 .card-trip .trip-img {
@@ -56,10 +58,12 @@
 .card-trip-info {
   padding: 4px ;
   display: flex;
-  align-items: flex-end;
-  justify-content:space-between;
-  position: relative;
-  margin-top: -16px;
+  align-items: center;
+  justify-content: content;
+}
+
+.card-trip-info h3 {
+  margin: 0px;
 }
 
 .card-trip-info .avatar {
