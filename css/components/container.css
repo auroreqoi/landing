@@ -1,0 +1,26 @@
+.banner-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.card-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background: linear-gradient(#C3AED6, #C0D8C7 25%);
+}

@@ -1,0 +1,7 @@
+.banner {
+  background-image: url('../../images/transflag.png');
+  background-size:contain;
+  color: #8E3E7D;
+  height: 40vh;
+  padding: 60px;
+}
